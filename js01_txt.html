@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 7th Edition
+      Chapter 1
+      Chapter case
+
+      Tinley Xeriscapes
+      Plants web page
+      Author: johan 
+      Date: 23/03/2026  
+
+      Filename: js01.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Tinley Xeriscapes</title>
+   <link rel="stylesheet" media="screen and (max-device-width: 999px)" href="tinleyhand.css" />
+   <link rel="stylesheet" media="screen and (min-device-width: 1000px)" href="tinley.css" />
+   <link href="http://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+   <div id="container">
+      <header>
+         <h1>
+            <img src="lupa.jpg" width="180" height="135" alt="Tinley Xeriscapes" title="" id="logo1" />
+            tinley xeriscapes
+         </h1>
+      </header>
+
+      <nav>
+         <ul>
+            <li><a href="#">About Xeriscaping</a></li>
+            <li id="currentpage"><a href="#">Plants</a></li>
+            <li><a href="#">See Our Work</a></li>
+            <li><a href="#">Get An Estimate</a></li>
+         </ul>
+      </nav>
+        
+      <aside>
+         <ul>
+            <li id="blanket">Blanket Flower</li>
+            <img src="cubi_phebi.webp" width="250" height="250" alt="Blanket Flower" title="" id="logo3" />
+            <li id="rugosa">Hedge Rose</li>
+            <img src="cubi_phebi.webp" width="250" height="250" alt="Blanket Flower" title="" id="logo3" />
+            <li id="bluestem">Little Bluestem</li>
+            <img src="cubi_phebi.webp" width="250" height="250" alt="Blanket Flower" title="" id="logo3" />
+         </ul>
+      </aside>
+    
+      <article>   
+         <figure>
+            <img src="#" alt="" title="" id="plantImg" />         
+            <figcaption id="imgCaption"> 
+               <script>
+                  /*
+                     info on plants + link to USDA website
+                  */
+                  document.write("<p>Plant choices for ");
+                  document.write("<a href='http://planthardiness.ars.usda.gov'>");
+                  document.write("hardiness zones</a>");
+                  document.write(" 5a - 6b </p>"); // hard zone for chicago and surrounding area
+               </script>          
+            </figcaption>
+         </figure>       
+      </article>
+    
+      <footer>
+         <p>Tinley Xeriscapes &bull; Tinley Park, IL 60477</p>
+         <img src="cubi_phebi.webp" width="250" height="250" alt="Blanket Flower" title="" id="logo3" />
+      </footer>
+   </div>
+</body>
+</html>
